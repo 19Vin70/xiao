@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>xiao</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="logo icon" href="logo-white.png">
+</head>
+<body>
+<!--particle.js-->
+<div id="particles-js"></div>
+<!-- navbar section starts  -->
+<nav class="navbar">
+    <a href="index.html"> <i class="fas fa-home"></i> 
+      <span>home</span> 
+    </a>
+    <a href="about.html"> <i class="fas fa-user"></i> 
+      <span>about</span> 
+    </a>
+   <!-- <a href="friends.html"> <i class="fas fa-users"></i> 
+      <span>Friends</span>
+    </a>-->
+    <a href="pictures.html"> <i class="far fa-images"></i> 
+      <span>Gallery</span> 
+    </a>
+    <a href="contact.html"> <i class="fas fa-address-book"></i> 
+      <span>contact</span> 
+    </a>
+</nav>
+
+<!-- navbar section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact">
+
+<h1 class="heading"> contact <span>me</span> </h1>
+
+<div class="row">
+
+    <div class="info-container">
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-map"></i>
+                <div class="info">
+                    <h3>Address :</h3>
+                    <p>Puerto Princesa City, Palawan</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-envelope"></i>
+                <div class="info">
+                    <h3>Email :</h3>
+                    <p>marvinsaik43@gmail.com</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-phone"></i>
+                <div class="info">
+                    <h3>Number :</h3>
+                    <p>+63-970-218-8350</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="share">
+            <a href="https://www.facebook.com/newOne2345" class="fab fa-facebook-f"></a>
+            <a href="https://github.com/19Vin70/" class="fab fa-github"></a>
+            <!--<a href="#" class="fab fa-instagram"></a>
+            <a href="https://t.me/xiaoAlqasim" class="fab fa-telegram"></a>-->
+        </div>
+
+    </div>
+
+    <form action="https://formsubmit.co/marvinsaik43@gmail.com" method="POST">
+
+        <div class="inputBox">
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="number" name="number" placeholder="Number" required>
+        </div>
+
+        <div class="inputBox">
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="text" name="subject" placeholder="Subject" required>
+        </div>
+
+        <textarea name="message" placeholder="Message" id="" cols="30" rows="10"></textarea>
+
+        <input type="submit" value="Send message" class="btn">
+
+    </form>
+
+</div>
+
+</section>
+<!--particle.js-->
+<script src="particles.js"></script>
+<script src="app.js"></script>
+<!-- contact section ends -->
+
+</body>
+</html>
